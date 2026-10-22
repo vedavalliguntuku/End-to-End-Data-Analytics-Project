@@ -63,7 +63,7 @@ The project covers the full analytics lifecycle, from raw data to a decision-rea
 
 ## Dashboard
 
-![Dashboard Preview](images/dashboard.png)
+![Dashboard Preview](dashboard.png)
 
 ## How to Run
 
