@@ -1,132 +1,4 @@
-# 👨🏻‍💻 End-to-End Data Analytics Project
-This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
-A complete analytics workflow: Python (loading and cleaning) → SQL (business queries) → Power BI (dashboard) → Report → Presentation.
-
-# Project Overview
-This project analyzes **customer_shopping_behavior** to answer key business questions such as:
-
-- What are the main trends over time?
-- Which categories, regions, or customers drive the most value?
-- What actions can the business take based on the data?
-
-The project covers the full analytics lifecycle, from raw data to a decision-ready dashboard, written report, and presentation.
-
-# Dataset
- - **Source**  - public URL
- - **Rows × Columns**  3,900 × 18
- - **File Format**  CSV / Excel 
-
-# Key columns
-- **Customer ID**	Identify customers and analyze purchasing behavior
-- **Category**	Identify the most popular product categories
-- **Purchase Amount** (USD)	Analyze spending and revenue
-- **Review Rating**	Measure customer satisfaction
-
-# Tools
-- **Python (Pandas, NumPy)** Data loading and cleaning
-- **PostgreSQL** Querying and analysis
-- **Power BI** Dashboard
-- **Word / PDF** Reporting
-- **Gamma** Presentation
-- **Git and GitHub** Version control
-
----
-## Steps
-
-### 1. Data Loading (Python)
-- Loaded the dataset into a Pandas DataFrame
-- Checked shape, data types, and a sample of records
-
-### 2. Data Cleaning
-- Handled missing values and duplicates
-- Fixed data types and inconsistent formatting
-- Treated outliers and created derived columns (e.g., month, revenue)
-- Exported the cleaned dataset for SQL and Power BI
-
-### 3. SQL Analysis
-- Loaded the cleaned data into **PostgreSQL**
-- Wrote queries using `JOIN`, `GROUP BY`, CTEs, subqueries, and window functions
-- Answered business questions such as top products, monthly trends, and customer segments
-
-### 4. Power BI Dashboard
-- Connected Power BI to the cleaned data / SQL database
-- Built interactive visuals with slicers and KPI cards
-- Added DAX measures for calculated metrics
-
-### 5. Report
-- Documented the approach, insights, and recommendations
-
-### 6. Presentation
-- Created a concise slide deck using **Gamma** for stakeholders
-
----
-
-## Dashboard
-
-![Dashboard Preview](Dashboard.png)
-
-## How to Run
-
-### Prerequisites
-- Python 3.9+
-- PostgreSQL
-- Power BI Desktop
-
-### Setup
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/vedavalliguntuku/End-to-End-Data-Analytics-Project.git
-cd End-to-End-Data-Analytics-Project
-```
-
-**2. Install dependencies**
-```bash
-pip install -r requirements.txt
-
-**Run the cleaning script**
-```bash
-Customer_Shopping_Behavior.py
-
-
-### Run the SQL queries
-1. Create a database and import `Customer_shopping_behavior.csv`
-2. Run the scripts in the `sql/` folder
-
-### Open the dashboard
-1. Open `Customer_Shopping_Behavior.pbix` in Power BI Desktop
-2. Update the data source path or connection if prompted
-3. Click **Refresh**
-
----
-
-## Project Structure
-
-- ├── data/              # Raw and cleaned datasets
-- ├── visual studio      # Python loading and cleaning
-- ├── sql/               # SQL queries
-- ├── dashboard/         # Power BI (.pbix) file
-- ├── report/            # Project report
-- ├── presentation/      # Gamma presentation / PDF
-- ├── images/            # Screenshots
-- ├── requirements.txt
-- └── README.md
-
-## Author
-
-**Vedavalli Guntuku**  
-Data Analyst  
-
-🔗 [GitHub](https://github.com/vedavalliguntuku)  
-📁 [Project Repository](https://github.com/vedavalliguntuku/End-to-End-Data-Analytics-Project)
-
-⭐ If you found this project helpful, feel free to star the repository!
-
-
-
-
-
-# Retail Sales Analytics: End-to-End Data Analytics Project
+# End-to-End Data Analytics Project
 
 > Python (load and clean) → SQL (15 business queries) → Power BI (dashboard) → Report → Presentation
 
@@ -205,15 +77,13 @@ invalid quantities, and price outliers.
 
 ## Dashboard
 
-![Dashboard overview](images/dashboard.png)
+![Dashboard overview](Dashboard.png)
 <!-- Add your Power BI screenshot as images/dashboard.png after building the dashboard (see powerbi/DASHBOARD_GUIDE.md). -->
 
 **Three pages:**
 1. **Executive Overview:** KPI cards, monthly revenue trend with moving average, category and region breakdown
 2. **Products and Discounts:** margin by sub-category, discount-band impact, top products, loss-making lines
 3. **Customers and Regions:** revenue by state, top customers, customer value tiers
-
-🔗 **Live dashboard:** *(add the Power BI publish link if you publish it)*
 
 ---
 
@@ -232,19 +102,19 @@ invalid quantities, and price outliers.
 
 **1. Revenue peaks every October–November.** The festive season brings 25% of annual revenue.
 
-![Monthly revenue](images/01_monthly_revenue.png)
+![Monthly revenue](monthly_revenue.png)
 
 **2. Laptops earn the most revenue but the thinnest margin.** They are 44% of revenue at a 9.6% margin, while office supplies earn 45% but are under 1% of sales.
 
-![Margin by sub-category](images/02_margin_by_subcategory.png)
+![Margin by sub-category](margin_by_subcategory.png)
 
 **3. Discounts above 20% turn profit into loss.** Margin falls from 18.1% (no discount) to −11.5% (21–30%). 450 order lines lost ₹1.98M in total.
 
-![Discount impact](images/03_discount_impact.png)
+![Discount impact](discount_impact.png)
 
 **4. A small group of customers drives revenue.** The top 25% of customers generate 65% of revenue, and customers with 4+ orders are worth about 11× more than one-time buyers.
 
-![Customer tiers](images/04_customer_tiers.png)
+![Customer tiers](customer_tiers.png)
 
 ### Recommendations
 - Cap discounts at 15–20% with manager approval above that, especially on Technology products
