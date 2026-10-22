@@ -123,7 +123,7 @@ invalid quantities, and price outliers.
 - Launch a loyalty programme for the top 25% of customers
 - Grow the East region (10.8% of revenue vs 34% each for West and South)
 
-Full write-up: [`report/project_report.md`](report/project_report.md)
+Full write-up: [`report/project_report.md`](project_report.md)
 
 ---
 
