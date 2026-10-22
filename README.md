@@ -73,15 +73,21 @@ The project covers the full analytics lifecycle, from raw data to a decision-rea
 - Power BI Desktop
 
 ### Setup
-# 1. Clone the repository
-git clone https://github.com/vedavalliguntuku/End-to-End Data Analytics Project.git
-cd End-to-End Data Analytics Project
 
-# 2. Install dependencies
+**1. Clone the repository**
+```bash
+git clone https://github.com/vedavalliguntuku/End-to-End-Data-Analytics-Project.git
+cd End-to-End-Data-Analytics-Project
+```
+
+**2. Install dependencies**
+```bash
 pip install -r requirements.txt
 
-# 3. Run the cleaning
-Customer_Shopping_Behavior.ipynb
+**3. Run the cleaning script**
+```bash
+Customer_Shopping_Behavior.py
+
 
 ### Run the SQL queries
 1. Create a database and import `Customer_shopping_behavior.csv`
@@ -96,15 +102,15 @@ Customer_Shopping_Behavior.ipynb
 
 ## Project Structure
 
-├── data/              # Raw and cleaned datasets
-├── visual studio         # Python loading and cleaning
-├── sql/               # SQL queries
-├── dashboard/         # Power BI (.pbix) file
-├── report/            # Project report
-├── presentation/      # Gamma presentation / PDF
-├── images/            # Screenshots
-├── requirements.txt
-└── README.md
+- ├── data/              # Raw and cleaned datasets
+- ├── visual studio      # Python loading and cleaning
+- ├── sql/               # SQL queries
+- ├── dashboard/         # Power BI (.pbix) file
+- ├── report/            # Project report
+- ├── presentation/      # Gamma presentation / PDF
+- ├── images/            # Screenshots
+- ├── requirements.txt
+- └── README.md
 
 ## Author
 
