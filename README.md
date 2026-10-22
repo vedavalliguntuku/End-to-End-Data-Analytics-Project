@@ -12,8 +12,8 @@ This project analyzes **customer_shopping_behavior** to answer key business ques
 The project covers the full analytics lifecycle, from raw data to a decision-ready dashboard, written report, and presentation.
 
 # Dataset
- **Source**  public URL
- **Rows × Columns**  3,900 × 18
+ -Source  - public URL
+ -**Rows × Columns**  3,900 × 18
  **File Format**  CSV / Excel 
 
 # Key columns
