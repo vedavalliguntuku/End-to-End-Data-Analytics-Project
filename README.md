@@ -63,7 +63,7 @@ The project covers the full analytics lifecycle, from raw data to a decision-rea
 
 ## Dashboard
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](Dashboard.png)
 
 ## How to Run
 
@@ -84,7 +84,7 @@ cd End-to-End-Data-Analytics-Project
 ```bash
 pip install -r requirements.txt
 
-**3. Run the cleaning script**
+**Run the cleaning script**
 ```bash
 Customer_Shopping_Behavior.py
 
