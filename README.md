@@ -12,23 +12,23 @@ This project analyzes **customer_shopping_behavior** to answer key business ques
 The project covers the full analytics lifecycle, from raw data to a decision-ready dashboard, written report, and presentation.
 
 # Dataset
- -**Source**  - public URL
- -**Rows × Columns**  3,900 × 18
- -**File Format**  CSV / Excel 
+ - **Source**  - public URL
+ - **Rows × Columns**  3,900 × 18
+ - **File Format**  CSV / Excel 
 
 # Key columns
--**Customer ID**	Identify customers and analyze purchasing behavior
--**Category**	Identify the most popular product categories
--**Purchase Amount** (USD)	Analyze spending and revenue
--**Review Rating**	Measure customer satisfaction
+- **Customer ID**	Identify customers and analyze purchasing behavior
+- **Category**	Identify the most popular product categories
+- **Purchase Amount** (USD)	Analyze spending and revenue
+- **Review Rating**	Measure customer satisfaction
 
 # Tools
--**Python (Pandas, NumPy)** Data loading and cleaning
--**PostgreSQL** Querying and analysis
--**Power BI** Dashboard
--**Word / PDF** Reporting
--**Gamma** Presentation
-**Git and GitHub** Version control
+- **Python (Pandas, NumPy)** Data loading and cleaning
+- **PostgreSQL** Querying and analysis
+- **Power BI** Dashboard
+- **Word / PDF** Reporting
+- **Gamma** Presentation
+- **Git and GitHub** Version control
 
 ---
 ## Steps
